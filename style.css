@@ -325,13 +325,13 @@ footer {
     gap: 28px;
 }
 
-@media (min-width: 360px) and (max-width: 1550px) {
+@media (min-width: 320px) and (max-width: 1550px) {
     .recording {
         text-align: center;
     }
 }
 
-@media (min-width: 360px) and (max-width: 1500px) {
+@media (min-width: 320px) and (max-width: 1500px) {
     
     .navigation {
         display: none;
@@ -352,7 +352,7 @@ footer {
     }
 } 
 
-@media (min-width: 360px) and (max-width: 660px) {
+@media (min-width: 320px) and (max-width: 660px) {
     .info > h1 {
         font-size: 1.5rem;
     }
