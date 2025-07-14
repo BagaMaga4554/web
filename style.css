@@ -1,0 +1,359 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    font-family: "Inter", serif;
+}
+
+
+/*навигация*/
+.logo {
+    margin-left: 97px;
+    cursor: pointer;
+}
+
+.note_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 176px;
+    background: #1D1D1D;
+}
+
+.nav-ul {
+    display: flex;
+    font-size: 20px;
+    gap: 161px;
+    margin-right: 161px;
+    margin-left: 326px;
+    list-style: none;
+}
+
+.nav-ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-ul > li > a:hover {
+    color: #FFD16D;
+    transition: color 0.2s;
+}
+
+.recording {
+    display: block;
+    border: 2px solid #808080;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    padding: 17px 48.5px 17px 48.5px;
+    margin-right: 52px;
+    text-decoration: none;
+}
+
+.recording:hover {
+    background: white;
+    color: #1D1D1D;
+    transition: background-color 0.4s;
+}
+
+/*секция 1*/
+.div-info {
+    height: 1029px;
+    width: 100%;
+    position: absolute;
+    background: url(/img/benyamin-bohlouli-LGXN4OSQSa4-unsplash.jpg);
+    filter: brightness(50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.info {
+    display: flex;
+    height: 1029px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info > h1 {
+    margin-top: 512px;
+    margin-bottom: 29px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+}
+
+.more {
+    display: block;
+    border: 2px solid #808080;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    padding: 17px 48.5px 17px 48.5px;
+    text-decoration: none;
+    margin-bottom: 513px;
+}
+
+.more:hover {
+    background: white;
+    color: #1D1D1D;
+    transition: background-color 0.2s;
+}
+
+/*секция 2 */
+
+.section2 > h1 {
+    margin-top: 182px;
+    margin-bottom: 52px;
+    margin-left: 89px;
+}
+
+.section2-price {
+    display: flex;
+    margin-left: 89px;
+    flex-direction: column;
+    background-color: #1E1E1E;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 89px;
+    color: white;
+    border-bottom: 1px solid #333333; /* Разделительная линия между услугами */
+}
+
+.price-item:last-child {
+    border-bottom: none; /* Убираем границу у последнего элемента */
+}
+
+.service {
+    font-size: 1.5rem;
+    flex: 1; /* Название услуги занимает доступное пространство */
+    text-align: left;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 100px; /* Минимальная ширина для цены, чтобы выравнивание не ломалось */
+    text-align: right;
+}
+
+.section2-container {
+    display: flex;
+    align-items: center;
+}
+
+.section2-price > p {
+    text-align: center;
+    padding: 100px 89px;
+    color: white;
+    word-break: break-all;
+}
+
+.section2-container-img {
+    height: 1000px;
+    width: 729px;
+    background-repeat: no-repeat;
+    background: url(/img/PHOTO.jpg);
+}
+
+/*секция 3*/
+.section3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;  
+    margin-top: 224px;
+}
+
+.section3-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 44px;
+    gap: 30px;
+}
+
+.section3-card1, .section3-card2, .section3-card3 {
+    width: 500px; /* Фиксированная ширина карточек */
+    min-height: 300px; /* Минимальная высота для единообразия */
+    padding-bottom: 20px;
+    box-sizing: border-box; /* Учитываем padding в ширине */
+}
+
+.section3-card1 > *, .section3-card2 > *, .section3-card3 > * {
+    padding-bottom: 20px;
+}
+
+.comment-card1, .comment-card2, .comment-card3 {
+    border: 2px solid #000000;
+    padding: 14px 23px;
+    max-width: 100%; /* Устанавливаем максимальную ширину равной ширине родителя */
+    box-sizing: border-box;
+}
+
+.comment-card1 > p, .comment-card2 > p, .comment-card3 > p {
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-wrap: break-word; /* Современный аналог word-wrap для корректного переноса */
+    text-align: left;
+    color: #333333;
+    margin: 0; /* Убираем лишние отступы */
+    overflow: hidden; /* Скрываем текст, который может выйти за границы */
+}
+
+/*секция 4*/
+.section4-container > h1 {
+    text-align: center;
+    margin-top: 173px;
+    margin-bottom: 50px;
+}
+
+.section4-card {
+    display: flex;
+    gap: 76px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section4-card1 {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    background-color: #1E1E1E;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.info-card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 45px;
+}
+
+.info-card1 > p {
+    padding-bottom: 30px;
+}
+
+.price-card1 {
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    width: 193px;
+}
+
+.section4-card2 {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    background-color: #1E1E1E;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.info-card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 45px;
+}
+
+.info-card2 > p {
+    padding-bottom: 30px;
+}
+
+.price-card2 {
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    width: 193px;
+}
+
+.section4-card3 {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    background-color: #1E1E1E;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.info-card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 45px;
+}
+
+.info-card3 > p {
+    padding-bottom: 30px;
+}
+
+.price-card3 {
+    border: solid;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    width: 193px;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 43px;
+    height: 176px;
+    background-color: #1E1E1E;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.social-network {
+    display: flex;
+    align-items: center;
+    margin-right: 52px;
+    gap: 28px;
+}
+
+@media (min-width: 360px) and (max-width: 1550px) {
+    .recording {
+        text-align: center;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 1500px) {
+    
+    .navigation {
+        display: none;
+    }
+
+    .section2-price {
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+    }
+    .section2-price > p {
+        padding: 50px;
+        word-break: break-all;
+    }
+    
+    .section2-container-img {
+        display: none;
+    }
+} 
+
+@media (min-width: 360px) and (max-width: 660px) {
+    .info > h1 {
+        font-size: 1.5rem;
+    }
+}
