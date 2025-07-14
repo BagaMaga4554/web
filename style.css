@@ -61,7 +61,7 @@
     height: 1029px;
     width: 100%;
     position: absolute;
-    background: url(/img/benyamin-bohlouli-LGXN4OSQSa4-unsplash.jpg);
+    background: url(img/benyamin-bohlouli-LGXN4OSQSa4-unsplash.jpg);
     filter: brightness(50%);
     background-repeat: no-repeat;
     background-position: center;
@@ -159,7 +159,7 @@
     height: 1000px;
     width: 729px;
     background-repeat: no-repeat;
-    background: url(/img/PHOTO.jpg);
+    background: url(img/PHOTO.jpg);
 }
 
 /*секция 3*/
