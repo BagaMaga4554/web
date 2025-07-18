@@ -188,6 +188,8 @@
 }
 
 .comment-card1, .comment-card2, .comment-card3 {
+    width: 350px; /* Фиксированная ширина карточек */
+    min-height: 152px;
     border: 2px solid #000000;
     padding: 14px 23px;
 }
@@ -369,4 +371,44 @@ footer {
         display:flex;
         flex-direction: column;
     }
+
+    /*секция 3*/
+    .comment-card1, .comment-card2, .comment-card3 {
+        width: 230px; /* Фиксированная ширина карточек */
+        min-height: 152px;
+        border: 2px solid #000000;
+        padding: 14px 23px;
+    }
+    
+    /* секция 4 */
+
+    .section4-card1 {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        background-color: #1E1E1E;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .section4-card2 {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        background-color: #1E1E1E;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .section4-card3 {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        background-color: #1E1E1E;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
 }
